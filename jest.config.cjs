@@ -6,7 +6,7 @@ module.exports = {
     '^.+\\.(ts|tsx)$': 'ts-jest'
   },
   moduleNameMapper: {
-    '\\.(css|less|scss)$': 'identity-obj-proxy'
+    '\\.(css|less|scss)$': '<rootDir>/__mocks__/styleMock.js'
   },
   testMatch: ['**/__tests__/**/*.(spec|test).(ts|tsx|js)'],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts']
