@@ -27,9 +27,17 @@ npm i
 | `npm run lint` | Checks lint issues |
 | `npm run lint:fix` | Fixes lint issues |
 | `npm run lint:format` | Fixes formatting issues |
+| `npm test` | Runs Jest + React Testing Library tests |
+| `npm run test:watch` | Runs tests in watch mode |
 
-## To-do
 
-- [ ] Add Jest + RTL
+## Tests
+
+Jest and React Testing Library are pre-configured.  
+You can run all tests with:
+
+```bash
+npm test
+```
 
 :warning: Use at your own risk
